@@ -43,7 +43,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Fashiondesign.urls'
+ROOT_URLCONF = 'Ushop.urls'
 
 TEMPLATES = [
     {
@@ -63,7 +63,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Fashiondesign.wsgi.application'
+WSGI_APPLICATION = 'Ushop.wsgi.application'
 
 
 # Database
@@ -114,14 +114,14 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'Fashiondesign/static')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'Ushop/static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static') # Automatically Created on Production
 
 # Settings for Media
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-# Default primary key field type
+# Default primary key type field
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
